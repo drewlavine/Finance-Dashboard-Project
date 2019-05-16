@@ -1,0 +1,233 @@
+[
+    {
+      "fundId": 1,
+      "fundName": "Growth Fund",
+      "assetsUnderManagement": 7541.64,
+      "investments": [
+        {
+          "investmentType": "public",
+          "ticker": "CUPIDATAT",
+          "sharePrice": "181.24",
+          "purchaseSharePrice": "192.21",
+          "shares": 16408
+        },
+        {
+          "investmentType": "public",
+          "ticker": "ULLAMCO",
+          "sharePrice": "51.25",
+          "purchaseSharePrice": "48.58",
+          "shares": 56796
+        },
+        {
+          "investmentType": "private",
+          "ticker": "QUIS",
+          "recurringRevenue": "-13.72",
+          "investedValue": "247.61",
+          "currentValue": "257.24"
+        },
+        {
+          "investmentType": "private",
+          "ticker": "IN",
+          "recurringRevenue": "3.64",
+          "investedValue": "169.64",
+          "currentValue": "185.23"
+        },
+        {
+          "investmentType": "private",
+          "ticker": "OCCAECAT",
+          "recurringRevenue": "14.56",
+          "investedValue": "283.98",
+          "currentValue": "279.38"
+        },
+        {
+          "investmentType": "public",
+          "ticker": "LABORE",
+          "sharePrice": "91.46",
+          "purchaseSharePrice": "96.89",
+          "shares": 18110
+        }
+      ]
+    },
+    {
+      "fundId": 2,
+      "fundName": "Charter Fund I",
+      "assetsUnderManagement": 9884.22,
+      "investments": [
+        {
+          "investmentType": "public",
+          "ticker": "LOREM",
+          "sharePrice": "95.79",
+          "purchaseSharePrice": "96.26",
+          "shares": 56882
+        },
+        {
+          "investmentType": "public",
+          "ticker": "LABORE",
+          "sharePrice": "211.13",
+          "purchaseSharePrice": "211.14",
+          "shares": 49991
+        },
+        {
+          "investmentType": "private",
+          "ticker": "INCIDIDUNT",
+          "recurringRevenue": "-6.71",
+          "investedValue": "165.73",
+          "currentValue": "154.83"
+        },
+        {
+          "investmentType": "private",
+          "ticker": "FUGIAT",
+          "recurringRevenue": "-3.86",
+          "investedValue": "126.18",
+          "currentValue": "116.83"
+        },
+        {
+          "investmentType": "private",
+          "ticker": "AD",
+          "recurringRevenue": "-12.58",
+          "investedValue": "123.00",
+          "currentValue": "123.42"
+        },
+        {
+          "investmentType": "public",
+          "ticker": "PROIDENT",
+          "sharePrice": "44.02",
+          "purchaseSharePrice": "42.90",
+          "shares": 65786
+        }
+      ]
+    },
+    {
+      "fundId": 3,
+      "fundName": "Charter Fund II",
+      "assetsUnderManagement": 3357.75,
+      "investments": [
+        {
+          "investmentType": "private",
+          "ticker": "MINIM",
+          "recurringRevenue": "-1.65",
+          "investedValue": "242.89",
+          "currentValue": "265.50"
+        },
+        {
+          "investmentType": "private",
+          "ticker": "TEMPOR",
+          "recurringRevenue": "-7.16",
+          "investedValue": "47.57",
+          "currentValue": "45.94"
+        },
+        {
+          "investmentType": "public",
+          "ticker": "QUI",
+          "sharePrice": "249.43",
+          "purchaseSharePrice": "241.29",
+          "shares": 67557
+        },
+        {
+          "investmentType": "private",
+          "ticker": "LABORUM",
+          "recurringRevenue": "-12.75",
+          "investedValue": "186.50",
+          "currentValue": "188.52"
+        },
+        {
+          "investmentType": "public",
+          "ticker": "EU",
+          "sharePrice": "274.80",
+          "purchaseSharePrice": "298.66",
+          "shares": 75353
+        },
+        {
+          "investmentType": "private",
+          "ticker": "ADIPISICING",
+          "recurringRevenue": "-3.23",
+          "investedValue": "288.15",
+          "currentValue": "280.43"
+        },
+        {
+          "investmentType": "private",
+          "ticker": "PARIATUR",
+          "recurringRevenue": "13.74",
+          "investedValue": "158.83",
+          "currentValue": "168.64"
+        }
+      ]
+    },
+    {
+      "fundId": 4,
+      "fundName": "Wealth Managed Fund",
+      "assetsUnderManagement": 5149.30,
+      "investments": [
+        {
+          "investmentType": "private",
+          "ticker": "ADIPISICING",
+          "recurringRevenue": "-2.08",
+          "investedValue": "67.88",
+          "currentValue": "69.84"
+        },
+        {
+          "investmentType": "private",
+          "ticker": "SUNT",
+          "recurringRevenue": "-2.82",
+          "investedValue": "63.88",
+          "currentValue": "69.25"
+        },
+        {
+          "investmentType": "private",
+          "ticker": "DUIS",
+          "recurringRevenue": "5.31",
+          "investedValue": "95.14",
+          "currentValue": "99.57"
+        },
+        {
+          "investmentType": "public",
+          "ticker": "EXCEPTEUR",
+          "sharePrice": "249.94",
+          "purchaseSharePrice": "233.68",
+          "shares": 5236
+        },
+        {
+          "investmentType": "public",
+          "ticker": "OCCAECAT",
+          "sharePrice": "165.98",
+          "purchaseSharePrice": "170.39",
+          "shares": 13099
+        },
+        {
+          "investmentType": "public",
+          "ticker": "ELIT",
+          "sharePrice": "148.36",
+          "purchaseSharePrice": "156.21",
+          "shares": 93318
+        }
+      ]
+    },
+    {
+      "fundId": 5,
+      "fundName": "Growth Fund A",
+      "assetsUnderManagement": 7403.70,
+      "investments": [
+        {
+          "investmentType": "private",
+          "ticker": "ESSE",
+          "recurringRevenue": "-10.38",
+          "investedValue": "174.09",
+          "currentValue": "190.78"
+        },
+        {
+          "investmentType": "public",
+          "ticker": "ENIM",
+          "sharePrice": "89.19",
+          "purchaseSharePrice": "89.83",
+          "shares": 70695
+        },
+        {
+          "investmentType": "private",
+          "ticker": "PARIATUR",
+          "recurringRevenue": "-2.27",
+          "investedValue": "252.96",
+          "currentValue": "268.55"
+        }
+      ]
+    }
+  ]

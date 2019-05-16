@@ -1,0 +1,32 @@
+.mat-table {
+    width: 100%;
+}
+
+#table {
+    margin-right: 16px;
+    margin-left: 16px;
+}
+
+::ng-deep.mat-header-cell {
+    color: #3399CC;
+}
+
+.positive {
+    padding-left: 5px;
+    color: green;
+}
+
+.negative {
+    color: red;
+}
+
+#pnl {
+    padding-right: 50px;
+}
+
+@media only screen and (max-width: 1440px) {
+    #table {
+        margin-right: 8px;
+        margin-left: 8px;
+    }
+}

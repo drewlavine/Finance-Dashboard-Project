@@ -1,0 +1,13 @@
+.my-flex-mat-card {
+    display: flex !important;
+    flex-direction: column !important;
+    overflow: visible !important;
+    height: 100%;
+}  
+
+#bestWorst {
+    height: 100%;
+    display: flex !important;
+    flex-direction: column !important;
+    overflow: visible !important;
+}

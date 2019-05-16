@@ -1,0 +1,33 @@
+<mat-toolbar class="portfolio-header">
+  <span class="deer-field"><img src="../../assets/DeerfieldLogo.jpg"/></span>
+  <mat-tab-group dynamicHeight class="mat-tab-header">
+    <mat-tab label="Dashboard"> </mat-tab>
+    <mat-tab label="Funds" disabled></mat-tab>
+    <mat-tab label="Investments" disabled></mat-tab>
+    <mat-tab label="Tools" disabled></mat-tab>
+    <mat-tab label="Admin" disabled></mat-tab>
+  </mat-tab-group>
+
+  <span class="icon-block">
+    <mat-basic-chip class="toolbar-text">John Doe</mat-basic-chip>
+    <mat-basic-chip class="toolbar-text" id="toolbar-chip"
+      >Log Out</mat-basic-chip
+    >
+    <mat-icon class="icon" svgIcon="user"></mat-icon>
+    <mat-icon class="icon" svgIcon="messages"></mat-icon>
+    <mat-icon class="icon" svgIcon="alerts"></mat-icon>
+    <mat-icon class="icon" svgIcon="help"></mat-icon>
+  </span> </mat-toolbar
+>
+
+<div class="row">
+  <dashboard-total id="total"></dashboard-total>
+  <dashboard-stocks id="stock"></dashboard-stocks>
+</div>
+<div class="row">
+  <dashboard-pnl id="pnl"></dashboard-pnl>
+  <dashboard-best id="best"></dashboard-best>
+  <dashboard-worst id="worst"></dashboard-worst>
+</div>
+
+<dashboard-table id="table"></dashboard-table>

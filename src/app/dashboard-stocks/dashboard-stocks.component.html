@@ -1,0 +1,20 @@
+<mat-card flex id="stock-card">
+  <mat-card-header>
+      <mat-card-title>
+          <span>Market Info</span>
+        </mat-card-title>
+        <mat-card-subtitle>
+          NASDAQ Composite
+        </mat-card-subtitle>
+  </mat-card-header>
+  <mat-card-content id="stock-card">
+    <ngx-charts-line-chart
+      [results]="stockData"
+      [xAxis]="true"
+      [yAxis]="true"
+      [autoScale]="true"
+      [showGridLines]="true"
+    >
+    </ngx-charts-line-chart>
+  </mat-card-content>
+</mat-card>

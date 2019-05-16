@@ -1,0 +1,6 @@
+#stock-card {
+    height: 100%;
+    display: flex !important;
+    flex-direction: column !important;
+    overflow: visible !important;
+}  

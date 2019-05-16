@@ -1,0 +1,69 @@
+<mat-card id="table">
+    <mat-card-title>Investments</mat-card-title>
+
+  <mat-form-field>
+    <input
+      matInput
+      (keyup)="applyFilter($event.target.value)"
+      placeholder="Filter by Fund"
+    />
+  </mat-form-field>
+
+  <table
+    mat-table
+    [dataSource]="dataSourceInvest"
+    matSort
+    class="mat-elevation-z8, mat-table"
+  >
+    <!-- Ticker Column -->
+    <ng-container matColumnDef="ticker">
+      <th mat-header-cell *matHeaderCellDef mat-sort-header>Ticker</th>
+      <td mat-cell *matCellDef="let investment">{{ investment.ticker }}</td>
+    </ng-container>
+
+    <!-- Fund Column -->
+    <ng-container matColumnDef="fund">
+      <th mat-header-cell *matHeaderCellDef mat-sort-header>Fund</th>
+      <td mat-cell *matCellDef="let investment">{{ investment.fund }}</td>
+    </ng-container>
+
+    <!-- Investment Type Column -->
+    <ng-container matColumnDef="investmentType">
+      <th mat-header-cell *matHeaderCellDef mat-sort-header>Investment Type</th>
+      <td mat-cell *matCellDef="let investment">
+        {{ investment.investmentType | titlecase }}
+      </td>
+    </ng-container>
+
+    <!-- PnL Column -->
+    <ng-container matColumnDef="pNL">
+      <th id="pnl"  mat-header-cell *matHeaderCellDef mat-sort-header>P&L</th>
+      <td mat-cell *matCellDef="let investment"
+      [ngClass]="{
+        'positive' : investment.pNL >= 0,
+        'negative' : investment.pNL < 0   
+    }">{{ investment.pNL }}</td>
+    </ng-container>
+
+    <!-- Current Value Column -->
+    <ng-container matColumnDef="currentValue">
+      <th mat-header-cell *matHeaderCellDef mat-sort-header>Current Value</th>
+      <td mat-cell *matCellDef="let investment">
+        {{ investment.currentValue | currency }}
+      </td>
+    </ng-container>
+
+    <!-- Capital Deployed Column -->
+    <ng-container matColumnDef="capitalDeployed">
+      <th mat-header-cell *matHeaderCellDef mat-sort-header>
+        Capital Deployed
+      </th>
+      <td mat-cell *matCellDef="let investment">
+        {{ investment.capitalDeployed | currency }}
+      </td>
+    </ng-container>
+
+    <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+    <tr mat-row *matRowDef="let row; columns: displayedColumns"></tr>
+  </table>
+</mat-card>

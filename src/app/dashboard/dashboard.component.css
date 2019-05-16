@@ -1,0 +1,134 @@
+mat-toolbar {
+  background-color: white;
+  color: black;
+  text-align: center;
+}
+
+.icon-block {
+  width: 100%;
+  text-align: right;
+}
+
+.icon {
+  float: right;
+  margin-left: 45px;
+  height: 33px;
+  width: 30px;
+  fill: rgba(0, 0, 0, 0.54);
+}
+
+.toolbar-text {
+  color: rgba(0, 0, 0, 0.54);
+}
+
+#toolbar-chip {
+  margin-right: 5px;
+  float: right;
+  margin-left: 25px;
+  margin-top: 3px;
+}
+
+.portfolio-header {
+  text-align: center;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  -webkit-box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.09);
+  -moz-box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.09);
+  box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.09);
+}
+
+.mat-tab-group {
+  height: 100%;
+  margin-left: 25px;
+}
+
+::ng-deep.mat-tab-header {
+  height: 100%;
+}
+
+::ng-deep.mat-tab-labels {
+  align-items: center;
+  height: 100%;
+}
+
+.row {
+  display: flex;
+  /* equal height of the children */
+  margin-left: 16px;
+  margin-bottom: 16px;
+  margin-right: 16px;
+  margin-top: 16px;
+}
+
+#stock {
+  width: 34%;
+  margin-left: 8px;
+}
+
+#total {
+  width: 65%;
+  margin-right: 8px;
+}
+
+#pnl {
+  width: 30%;
+  margin-right: 8px;
+}
+
+#best {
+  width: 34%;
+  margin-right: 8px;
+  margin-left: 8px;
+}
+
+#worst {
+  margin-left: 8px;
+  width: 34%;
+}
+
+@media only screen and (max-width: 1440px) {
+    .icon {
+        float: right;
+        margin-left: 8%;
+        height: 33px;
+        width: 30px;
+        fill: rgba(0, 0, 0, 0.54);
+      }
+
+    #pnl {
+        width: 30%;
+        margin-right: auto
+      }
+      
+      #best {
+        width: 34%;
+        margin-right: auto;
+        margin-left: auto;
+      }
+      
+      #worst {
+        margin-left: auto;
+        width: 34%;
+      }
+
+      .row {
+        display: flex;
+        /* equal height of the children */
+        margin: auto;
+        margin-right: 8px;
+        margin-left: 8px;
+        margin-top: 8px;
+        margin-bottom: 8px;
+      }
+
+      #stock {
+        width: 34%;
+        margin-left: auto;
+      }
+      
+      #total {
+        width: 65%;
+        margin-right: auto;
+      }
+}

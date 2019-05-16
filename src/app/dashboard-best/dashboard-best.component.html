@@ -1,0 +1,20 @@
+<mat-card class="my-flex-mat-card">
+  <mat-card-header>
+    <mat-card-title>Best Performing Investments</mat-card-title>
+    <mat-card-subtitle>by P&L</mat-card-subtitle>
+  </mat-card-header>
+  <mat-card-content id="bestWorst" #bestContainer>
+    <ngx-charts-bar-vertical
+      (window:resize)="onResize($event)"
+      [view]="view"
+      [results]="top3"
+      [xAxis]="xAxis"
+      [yAxis]="yAxis"
+      [legend]="legend"
+      [showGridLines]="showGridLines"
+      [roundEdges]="roundEdges"
+      [scheme]="colorScheme"
+      [barPadding]="barPadding"
+    ></ngx-charts-bar-vertical>
+  </mat-card-content>
+</mat-card>
